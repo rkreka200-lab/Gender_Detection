@@ -46,7 +46,7 @@ async function startCamera() {
     video.onloadedmetadata = () => {
         video.play();
         video.style.transform = "scaleX(-1)";       // ← flip tampilan video (anti-mirror)
-        overlay.style.transform = "scaleX(1)";     // ← flip overlay agar kotak sinkron
+        overlay.style.transform = "scaleX(0)";     // ← flip overlay agar kotak sinkron
         status.innerText = "SISTEM AKTIF: MENUNGGU OBJEK";
         initBtn.style.display = "none";
         requestAnimationFrame(processFrame);
