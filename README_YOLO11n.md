@@ -33,7 +33,7 @@ untuk berbagai tugas computer vision.
 
 ## Tahapan Pengerjaan
 
-1.  Pengumpulan dataset.
+1.  Pengumpulan dataset(melalui roboflow).
 2.  Pelabelan data (Male dan Female).
 3.  Preprocessing dataset.
 4.  Pembagian data training, validation, dan testing.
@@ -54,7 +54,6 @@ Female
 -   Python 3.x
 -   Ultralytics YOLO
 -   OpenCV
--   NumPy
 
 ## Kesimpulan
 
